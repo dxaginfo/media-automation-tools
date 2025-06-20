@@ -1,0 +1,75 @@
+{
+  "validation_rules": {
+    "composition": [
+      "rule_of_thirds",
+      "headroom",
+      "leading_space",
+      "framing_consistency",
+      "depth_of_field",
+      "blocking_efficiency"
+    ],
+    "continuity": [
+      "costume_consistency",
+      "prop_placement",
+      "lighting_consistency",
+      "time_of_day_consistency",
+      "character_position",
+      "background_elements"
+    ],
+    "technical": [
+      "aspect_ratio",
+      "resolution_consistency",
+      "color_profile_consistency",
+      "focus_quality",
+      "motion_blur_consistency"
+    ]
+  },
+  "gemini_api": {
+    "model": "gemini-pro-vision",
+    "max_tokens": 1024,
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "top_k": 40
+  },
+  "severity_levels": {
+    "critical": {
+      "description": "Must be fixed before proceeding",
+      "color": "#FF0000"
+    },
+    "high": {
+      "description": "Strongly recommended to fix",
+      "color": "#FF6600"
+    },
+    "medium": {
+      "description": "Should be addressed if possible",
+      "color": "#FFCC00"
+    },
+    "low": {
+      "description": "Optional improvements",
+      "color": "#FFFF00"
+    },
+    "info": {
+      "description": "For information only",
+      "color": "#00CCFF"
+    }
+  },
+  "report_formats": {
+    "html": {
+      "template": "templates/report.html",
+      "css": "templates/report.css"
+    },
+    "pdf": {
+      "template": "templates/report.html",
+      "css": "templates/report.css",
+      "options": {
+        "page_size": "letter",
+        "margin": "1in"
+      }
+    }
+  },
+  "storage": {
+    "type": "google_cloud_storage",
+    "bucket": "scene-validator-reports",
+    "path_prefix": "reports/"
+  }
+}
