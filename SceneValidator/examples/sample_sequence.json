@@ -1,0 +1,128 @@
+[
+  {
+    "scene_id": "sc-101",
+    "project": "The Lost Key",
+    "scene_number": "14A",
+    "setting": "Interior - Alex's Apartment - Living Room",
+    "time_of_day": "Late Afternoon",
+    "lighting": "Warm interior lighting with golden sunlight streaming through windows",
+    "characters": [
+      {
+        "name": "Alex",
+        "position": "Center frame, standing by bookshelf",
+        "costume": "Casual grey t-shirt, blue jeans",
+        "props": ["Old leather-bound book"]
+      },
+      {
+        "name": "Morgan",
+        "position": "Left side of frame, seated on couch",
+        "costume": "White button-up shirt, black pants",
+        "props": ["Coffee mug", "Smartphone"]
+      }
+    ],
+    "key_props": [
+      {
+        "name": "Antique key",
+        "description": "Brass ornate key with distinctive engravings",
+        "placement": "On coffee table, partially visible under newspaper"
+      },
+      {
+        "name": "Family photo",
+        "description": "Framed photo showing Alex as a child with parents",
+        "placement": "Prominently displayed on bookshelf"
+      }
+    ],
+    "scene_description": "Alex discovers a hidden page in the old book that mentions the significance of the key. Morgan remains skeptical but intrigued.",
+    "technical_requirements": {
+      "aspect_ratio": "2.39:1",
+      "resolution": "4K",
+      "color_profile": "Rec.709"
+    },
+    "continuity_notes": [
+      "Morgan's coffee mug should be half-empty, consistent with previous scene",
+      "Sunlight angle should match the established time of day",
+      "Alex's watch should show approximately 5:20 PM"
+    ]
+  },
+  {
+    "scene_id": "sc-102",
+    "project": "The Lost Key",
+    "scene_number": "14B",
+    "setting": "Interior - Alex's Apartment - Kitchen",
+    "time_of_day": "Late Afternoon",
+    "lighting": "Warm interior lighting with dimmer sunlight",
+    "characters": [
+      {
+        "name": "Alex",
+        "position": "By the refrigerator",
+        "costume": "Casual grey t-shirt, blue jeans",
+        "props": ["Water bottle", "Old leather-bound book"]
+      },
+      {
+        "name": "Morgan",
+        "position": "Leaning against counter",
+        "costume": "White button-up shirt, black pants",
+        "props": ["Coffee mug (empty)"]
+      }
+    ],
+    "key_props": [
+      {
+        "name": "Antique key",
+        "description": "Brass ornate key with distinctive engravings",
+        "placement": "In Alex's hand, being examined closely"
+      }
+    ],
+    "scene_description": "Alex and Morgan continue their discussion in the kitchen. Alex excitedly explains the possible locations the key might unlock while refilling water. Morgan rinses the coffee mug, listening with growing interest.",
+    "technical_requirements": {
+      "aspect_ratio": "2.39:1",
+      "resolution": "4K",
+      "color_profile": "Rec.709"
+    },
+    "continuity_notes": [
+      "Morgan's coffee mug should now be empty",
+      "Alex's watch should show approximately 5:30 PM",
+      "Book should still be in Alex's possession"
+    ]
+  },
+  {
+    "scene_id": "sc-103",
+    "project": "The Lost Key",
+    "scene_number": "15",
+    "setting": "Exterior - City Street",
+    "time_of_day": "Evening",
+    "lighting": "Blue hour, street lights just turning on",
+    "characters": [
+      {
+        "name": "Alex",
+        "position": "Walking left to right",
+        "costume": "Casual grey t-shirt, blue jeans, added light jacket",
+        "props": ["Shoulder bag containing book"]
+      },
+      {
+        "name": "Morgan",
+        "position": "Walking alongside Alex",
+        "costume": "White button-up shirt, black pants, added dark blazer",
+        "props": ["Smartphone"]
+      }
+    ],
+    "key_props": [
+      {
+        "name": "Antique key",
+        "description": "Brass ornate key with distinctive engravings",
+        "placement": "In Alex's pocket, glimpsed when reaching for phone"
+      }
+    ],
+    "scene_description": "Alex and Morgan walk briskly down the street, heading toward the museum where they believe the key might be useful. Morgan is checking the museum's closing time on a smartphone while Alex excitedly leads the way.",
+    "technical_requirements": {
+      "aspect_ratio": "2.39:1",
+      "resolution": "4K",
+      "color_profile": "Rec.709"
+    },
+    "continuity_notes": [
+      "Both characters have added outer layers for evening weather",
+      "Street lights should be just turning on",
+      "Traffic and pedestrian levels should match evening time",
+      "Alex's watch should show approximately 6:15 PM"
+    ]
+  }
+]

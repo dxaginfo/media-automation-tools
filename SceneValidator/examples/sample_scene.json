@@ -1,0 +1,72 @@
+{
+  "scene_id": "sc-101",
+  "project": "The Lost Key",
+  "scene_number": "14A",
+  "setting": "Interior - Alex's Apartment - Living Room",
+  "time_of_day": "Late Afternoon",
+  "lighting": "Warm interior lighting with golden sunlight streaming through windows",
+  "characters": [
+    {
+      "name": "Alex",
+      "position": "Center frame, standing by bookshelf",
+      "costume": "Casual grey t-shirt, blue jeans",
+      "props": ["Old leather-bound book"]
+    },
+    {
+      "name": "Morgan",
+      "position": "Left side of frame, seated on couch",
+      "costume": "White button-up shirt, black pants",
+      "props": ["Coffee mug", "Smartphone"]
+    }
+  ],
+  "key_props": [
+    {
+      "name": "Antique key",
+      "description": "Brass ornate key with distinctive engravings",
+      "placement": "On coffee table, partially visible under newspaper"
+    },
+    {
+      "name": "Family photo",
+      "description": "Framed photo showing Alex as a child with parents",
+      "placement": "Prominently displayed on bookshelf"
+    }
+  ],
+  "shot_list": [
+    {
+      "shot_id": "14A-1",
+      "type": "Wide",
+      "description": "Establishing shot of living room with both characters",
+      "framing": "Wide angle, full room visible"
+    },
+    {
+      "shot_id": "14A-2",
+      "type": "Medium",
+      "description": "Alex examining the book, looking concerned",
+      "framing": "Mid-shot focusing on Alex's upper body and face"
+    },
+    {
+      "shot_id": "14A-3",
+      "type": "Close-up",
+      "description": "Morgan's reaction as Alex reveals information",
+      "framing": "Tight on Morgan's face"
+    },
+    {
+      "shot_id": "14A-4",
+      "type": "Insert",
+      "description": "The key partially visible under newspaper",
+      "framing": "Extreme close-up of coffee table surface"
+    }
+  ],
+  "scene_description": "Alex discovers a hidden page in the old book that mentions the significance of the key. Morgan remains skeptical but intrigued. The key on the coffee table is momentarily visible when Alex gestures emphatically, causing the newspaper to shift.",
+  "technical_requirements": {
+    "aspect_ratio": "2.39:1",
+    "resolution": "4K",
+    "color_profile": "Rec.709",
+    "audio": "5.1 surround"
+  },
+  "continuity_notes": [
+    "Morgan's coffee mug should be half-empty, consistent with previous scene",
+    "Sunlight angle should match the established time of day",
+    "Alex's watch should show approximately 5:20 PM"
+  ]
+}
